@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
     "build": "tsc -b && vite build",
-    "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort"
+    "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
+    "predeploy": "npm run build -- --base=/aniversary-gift/",
+    "deploy": "gh-pages -d dist --dotfiles"
   },
   "dependencies": {
     "react": "^19.1.1",
@@ -16,6 +18,7 @@
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react": "^5.0.3",
+    "gh-pages": "6.1.1",
     "typescript": "~5.9.2",
     "vite": "^7.1.7"
   }

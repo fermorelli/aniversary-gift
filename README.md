@@ -102,16 +102,26 @@ El diseño prioriza el celular y las fotos verticales, con márgenes menores, en
 ## Publicar
 
 - **Vercel o Netlify:** comando `npm run build`, salida `dist`.
-- **GitHub Pages:** el workflow `.github/workflows/deploy.yml` instala las dependencias, compila y publica `dist`. Al publicar, configura la ruta base con el nombre del repositorio; las fotos y el audio adaptan sus rutas automáticamente.
+- **GitHub Pages:** `npm run deploy` compila la web localmente y sube el contenido de `dist` a la rama `gh-pages`. El build usa la ruta `/aniversary-gift/`; las fotos y el audio adaptan sus rutas automáticamente. No hay un workflow de Actions en el repositorio.
 
 ### Primera publicación en GitHub Pages
 
 1. Abrí [Settings → Pages del repositorio](https://github.com/fermorelli/aniversary-gift/settings/pages).
-2. En **Build and deployment → Source**, elegí **GitHub Actions**. El workflow ya está incluido; no hace falta crear otro.
-3. Abrí [Actions → Publicar en GitHub Pages](https://github.com/fermorelli/aniversary-gift/actions/workflows/deploy.yml), tocá **Run workflow**, elegí `main` y confirmá **Run workflow**.
-4. Cuando la ejecución termine en verde, abrí [la web](https://fermorelli.github.io/aniversary-gift/).
+2. En **Build and deployment → Source**, elegí **Deploy from a branch**.
+3. Elegí la rama **gh-pages**, carpeta **/(root)** y tocá **Save**. La rama contiene la web compilada, con `index.html` en la raíz y `.nojekyll` para servir los archivos estáticos.
+4. Cuando GitHub termine de publicar, abrí [la web](https://fermorelli.github.io/aniversary-gift/).
 
-Los próximos pushes a `main` publican los cambios automáticamente. Si la primera ejecución del push falla porque Pages todavía no estaba habilitado, ejecutá el workflow otra vez después de elegir **GitHub Actions**.
+### Publicar cambios después
+
+Guardá tus cambios y, desde la terminal de esta carpeta, ejecutá:
+
+```sh
+npm run deploy
+```
+
+El comando compila y publica la versión nueva en `gh-pages`. Conservá también los cambios del código fuente con un commit y push en `main`; un push a `main` por sí solo no actualiza la web publicada.
+
+GitHub muestra una tarea interna de Pages al publicar desde una rama. No requiere crear ni configurar un workflow propio en Actions.
 
 La web publicada en GitHub Pages es accesible para cualquiera que tenga el enlace. Si el repositorio es privado, la disponibilidad de Pages depende del plan de GitHub. [Documentación oficial](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
