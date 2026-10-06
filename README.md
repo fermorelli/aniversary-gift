@@ -20,7 +20,7 @@ El build estático queda en `dist/`. La vista previa del build usa http://127.0.
 
 ## Personalizar: un solo archivo
 
-**`src/data/story.ts`** contiene todas las fotos, los textos personales, la carta, los controles y las opciones de cada escena. Hay 24 fotos seleccionadas: 23 en el recorrido y una en la sorpresa. La música es opcional y todavía no tiene una pista elegida. **`FOTOS.md`** relaciona cada identificador con el archivo original y registra las siete fotos reservadas.
+**`src/data/story.ts`** contiene todas las fotos, los textos personales, la carta, los controles y las opciones de cada escena. Hay 24 fotos seleccionadas: 23 en el recorrido y una en la sorpresa. La música elegida es «Can't Help Falling in Love», de Elvis Presley, y se activa al tocar el control de sonido. **`FOTOS.md`** relaciona cada identificador con el archivo original y registra las siete fotos reservadas.
 
 - `photos`: rutas, descripciones accesibles, proporciones y punto de recorte.
 - `years`: títulos, introducciones, recuerdos y transiciones.
@@ -79,7 +79,7 @@ Guardá un audio propio o con permiso de uso en `public/audio/` y cambiá:
 audio: { src: '/audio/nuestra-musica.mp3', volume: 0.35 },
 ```
 
-Sólo comienza al tocar **Activar sonido**. El volumen va de 0 a 1. Con `src: null` no se carga ningún audio y el control informa que la música todavía no está elegida. No se incluye ninguna canción.
+Sólo comienza al tocar **Activar sonido** y se repite durante el recorrido. El volumen va de 0 a 1. Con `src: null` no se carga ningún audio y el control informa que la música todavía no está elegida. La canción actual está en `public/audio/cant-help-falling-in-love.mp3`, con volumen `0.35`; el botón **Silenciar** pausa la reproducción.
 
 ## Estructura
 

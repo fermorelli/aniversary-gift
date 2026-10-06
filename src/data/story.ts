@@ -583,5 +583,8 @@ export const story = {
       ],
     },
   ] satisfies PreludeContent[],
-  audio: { src: null as string | null, volume: 0.35 },
+  audio: {
+    src: "/audio/cant-help-falling-in-love.mp3" as string | null,
+    volume: 0.35,
+  },
 };
