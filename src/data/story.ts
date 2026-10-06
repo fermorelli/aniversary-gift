@@ -463,7 +463,7 @@ export const story = {
   opening: {
     eyebrow: "Nuestra historia, hasta acá",
     messages: ["Hace cuatro años empezamos esta aventura.", "Y pasaron un monton de cosas enanita hermosa."],
-    messageDuration: 1900,
+    messageDuration: 7600,
     title: "Cuatro años juntos.",
     titleAccent: "Tres de casados.",
     description: "Un poco de lo que vivimos.\nY todo lo que todavía nos queda.",
