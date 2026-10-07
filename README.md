@@ -20,7 +20,7 @@ El build estático queda en `dist/`. La vista previa del build usa http://127.0.
 
 ## Personalizar: un solo archivo
 
-**`src/data/story.ts`** contiene todas las fotos, los textos personales, la carta, los controles y las opciones de cada escena. Hay 24 fotos seleccionadas: 23 en el recorrido y una en la sorpresa. La música elegida es «Can't Help Falling in Love», de Elvis Presley, y se activa al tocar el control de sonido. **`FOTOS.md`** relaciona cada identificador con el archivo original y registra las siete fotos reservadas.
+**`src/data/story.ts`** contiene todas las fotos, los textos personales, la carta, los controles y las opciones de cada escena. Hay 38 fotos seleccionadas: 37 en el recorrido y una en la sorpresa. La música elegida es «Can't Help Falling in Love», de Elvis Presley, y se activa al tocar el control de sonido. **`FOTOS.md`** relaciona cada identificador con el archivo original y registra las cuatro fotos reservadas.
 
 - `photos`: rutas, descripciones accesibles, proporciones y punto de recorte.
 - `years`: títulos, introducciones, recuerdos y transiciones.

@@ -41,7 +41,14 @@ export function MemoryScene({
   const mobile = useMobileViewport();
   const reduced = useReducedMotion();
   const carousel = mobile && memory.images.length > 1;
-  const images = mobile ? memory.images : memory.images.slice(0, 4);
+  const images = memory.images;
+  const albumCapacity =
+    memory.layout === "collage"
+      ? 4
+      : ["pair", "detail"].includes(memory.layout)
+        ? 2
+        : 1;
+  const expandedGallery = images.length > albumCapacity;
   const galleryRatio = images.length
     ? Math.min(...images.map((id) => photoRatio(photos[id]?.aspectRatio)))
     : 4 / 3;
@@ -86,7 +93,7 @@ export function MemoryScene({
         <MemoryCopy memory={memory} />
         {memory.images.length > 0 && (
           <div
-            className={`memory-photos ${carousel ? "mobile-carousel" : ""} ${hasReveal ? "has-reveal" : ""} ${hasReveal && !revealed ? "is-hidden-memory" : ""}`}
+            className={`memory-photos ${carousel ? "mobile-carousel" : ""} ${expandedGallery ? "expanded-gallery" : ""} ${hasReveal ? "has-reveal" : ""} ${hasReveal && !revealed ? "is-hidden-memory" : ""}`}
             style={{ "--gallery-ratio": galleryRatio } as CSSProperties}
           >
             <div

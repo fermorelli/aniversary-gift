@@ -471,6 +471,32 @@ h1 em {
 .photo-wrap {
   min-width: 0;
 }
+.memory-scene .memory-photos.expanded-gallery:not(.mobile-carousel) {
+  display: block;
+  padding: 0;
+}
+.expanded-gallery:not(.mobile-carousel) .photo-group {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+.memory-scene .expanded-gallery:not(.mobile-carousel) .photo-wrap {
+  grid-column: auto;
+  grid-row: auto;
+  rotate: none;
+  translate: none;
+  transform: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  align-self: auto;
+}
+.memory-scene .expanded-gallery:not(.mobile-carousel) .photo {
+  width: min(100%, calc(60svh * var(--photo-ratio)));
+  margin-inline: auto;
+}
 .photo {
   display: block;
   width: 100%;

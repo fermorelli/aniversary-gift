@@ -262,6 +262,132 @@ export const photos: Record<string, PhotoContent> = {
     sizes: "(max-width: 700px) 94vw, (max-width: 1000px) 80vw, 60vw",
     position: "50% 50%",
   },
+  PRE_03: {
+    src: "/images/antes-del-si/03-1280.webp",
+    alt: "Un selfie de los dos abrazados frente al espejo de un ascensor.",
+    aspectRatio: "2304 / 4096",
+    srcSet:
+      "/images/antes-del-si/03-640.webp 640w, /images/antes-del-si/03-960.webp 960w, /images/antes-del-si/03-1280.webp 1280w",
+    sizes: "(max-width: 700px) 94vw, (max-width: 1000px) 80vw, 60vw",
+    position: "50% 50%",
+  },
+  PRE_04: {
+    src: "/images/antes-del-si/04-1280.webp",
+    alt: "Una sonrisa al aire libre, con anteojos de sol y una mesa delante.",
+    aspectRatio: "2503 / 4096",
+    srcSet:
+      "/images/antes-del-si/04-640.webp 640w, /images/antes-del-si/04-960.webp 960w, /images/antes-del-si/04-1280.webp 1280w",
+    sizes: "(max-width: 700px) 94vw, (max-width: 1000px) 80vw, 60vw",
+    position: "50% 50%",
+  },
+  PRE_07: {
+    src: "/images/antes-del-si/07-1280.webp",
+    alt: "Un retrato al aire libre, con anteojos de sol y árboles al fondo.",
+    aspectRatio: "3072 / 4096",
+    srcSet:
+      "/images/antes-del-si/07-640.webp 640w, /images/antes-del-si/07-960.webp 960w, /images/antes-del-si/07-1280.webp 1280w",
+    sizes: "(max-width: 700px) 94vw, (max-width: 1000px) 80vw, 60vw",
+    position: "50% 50%",
+  },
+  ANO1_06: {
+    src: "/images/ano-1/06-1280.webp",
+    alt: "Una salida a un bar, con luces y estantes de botellas al fondo.",
+    aspectRatio: "2304 / 4096",
+    srcSet:
+      "/images/ano-1/06-640.webp 640w, /images/ano-1/06-960.webp 960w, /images/ano-1/06-1280.webp 1280w",
+    sizes: "(max-width: 700px) 94vw, (max-width: 1000px) 80vw, 60vw",
+    position: "50% 50%",
+  },
+  ANO1_07: {
+    src: "/images/ano-1/07-1280.webp",
+    alt: "Una foto impresa de los dos, compartiendo un beso en la mejilla.",
+    aspectRatio: "2304 / 4096",
+    srcSet:
+      "/images/ano-1/07-640.webp 640w, /images/ano-1/07-960.webp 960w, /images/ano-1/07-1280.webp 1280w",
+    sizes: "(max-width: 700px) 94vw, (max-width: 1000px) 80vw, 60vw",
+    position: "50% 50%",
+  },
+  ANO1_08: {
+    src: "/images/ano-1/08-1280.webp",
+    alt: "Una sonrisa durante una cena, con una copa de vino sobre la mesa.",
+    aspectRatio: "2304 / 4096",
+    srcSet:
+      "/images/ano-1/08-640.webp 640w, /images/ano-1/08-960.webp 960w, /images/ano-1/08-1280.webp 1280w",
+    sizes: "(max-width: 700px) 94vw, (max-width: 1000px) 80vw, 60vw",
+    position: "50% 50%",
+  },
+  ANO2_06: {
+    src: "/images/ano-2/casa-03-1280.webp",
+    alt: "Una taza entre las manos durante un desayuno en casa.",
+    aspectRatio: "2304 / 4096",
+    srcSet:
+      "/images/ano-2/casa-03-640.webp 640w, /images/ano-2/casa-03-960.webp 960w, /images/ano-2/casa-03-1280.webp 1280w",
+    sizes: "(max-width: 700px) 94vw, (max-width: 1000px) 80vw, 60vw",
+    position: "50% 50%",
+  },
+  ANO2_07: {
+    src: "/images/ano-2/casa-04-1280.webp",
+    alt: "Un desayuno casero, con una sonrisa detrás del plato.",
+    aspectRatio: "2304 / 4096",
+    srcSet:
+      "/images/ano-2/casa-04-640.webp 640w, /images/ano-2/casa-04-960.webp 960w, /images/ano-2/casa-04-1280.webp 1280w",
+    sizes: "(max-width: 700px) 94vw, (max-width: 1000px) 80vw, 60vw",
+    position: "50% 50%",
+  },
+  ANO2_08: {
+    src: "/images/ano-2/salir-02-1280.webp",
+    alt: "Otro selfie de los dos frente al espejo, vestidos para salir.",
+    aspectRatio: "2211 / 2971",
+    srcSet:
+      "/images/ano-2/salir-02-640.webp 640w, /images/ano-2/salir-02-960.webp 960w, /images/ano-2/salir-02-1280.webp 1280w",
+    sizes: "(max-width: 700px) 94vw, (max-width: 1000px) 80vw, 60vw",
+    position: "50% 50%",
+  },
+  ANO3_08: {
+    src: "/images/ano-3/08-1280.webp",
+    alt: "Una sonrisa en la pileta, apoyada en el borde del agua.",
+    aspectRatio: "3072 / 4096",
+    srcSet:
+      "/images/ano-3/08-640.webp 640w, /images/ano-3/08-960.webp 960w, /images/ano-3/08-1280.webp 1280w",
+    sizes: "(max-width: 700px) 94vw, (max-width: 1000px) 80vw, 60vw",
+    position: "50% 50%",
+  },
+  ANO3_09: {
+    src: "/images/ano-3/09-1280.webp",
+    alt: "Una taza de café frente al espejo, con la mesa preparada.",
+    aspectRatio: "2304 / 4096",
+    srcSet:
+      "/images/ano-3/09-640.webp 640w, /images/ano-3/09-960.webp 960w, /images/ano-3/09-1280.webp 1280w",
+    sizes: "(max-width: 700px) 94vw, (max-width: 1000px) 80vw, 60vw",
+    position: "50% 50%",
+  },
+  ANO3_10: {
+    src: "/images/ano-3/10-1280.webp",
+    alt: "Un selfie de los dos en una calle, con un puente al fondo.",
+    aspectRatio: "2294 / 4080",
+    srcSet:
+      "/images/ano-3/10-640.webp 640w, /images/ano-3/10-960.webp 960w, /images/ano-3/10-1280.webp 1280w",
+    sizes: "(max-width: 700px) 94vw, (max-width: 1000px) 80vw, 60vw",
+    position: "50% 50%",
+  },
+  ANO3_11: {
+    src: "/images/ano-3/11-1280.webp",
+    alt: "Los dos abrazados sobre un puente, con la ciudad de fondo.",
+    aspectRatio: "2296 / 4080",
+    srcSet:
+      "/images/ano-3/11-640.webp 640w, /images/ano-3/11-960.webp 960w, /images/ano-3/11-1280.webp 1280w",
+    sizes: "(max-width: 700px) 94vw, (max-width: 1000px) 80vw, 60vw",
+    position: "50% 50%",
+  },
+  ANO3_12: {
+    src: "/images/ano-3/12-1280.webp",
+    alt: "Los dos abrazados entre esferas y paredes de espejos.",
+    aspectRatio: "2304 / 4096",
+    srcSet:
+      "/images/ano-3/12-640.webp 640w, /images/ano-3/12-960.webp 960w, /images/ano-3/12-1280.webp 1280w",
+    sizes: "(max-width: 700px) 94vw, (max-width: 1000px) 80vw, 60vw",
+    position: "50% 50%",
+  },
 };
 
 export const years: Chapter[] = [
@@ -283,7 +409,9 @@ export const years: Chapter[] = [
         id: "ano-1-recuerdo-1",
         eyebrow: "Los primeros viajes",
         title: "La vista era linda.\nLa compañía, más.",
-        text: ["Como siempre a todos lados donde fuimos y donde vamos, la vista y los lugares son increibles pero lo que más me gusta es la compañia."],
+        text: [
+          "Como siempre a todos lados donde fuimos y donde vamos, la vista y los lugares son increibles pero lo que más me gusta es la compañia.",
+        ],
         images: ["ANO1_02"],
         layout: "hero",
         date: "Primer año de casados",
@@ -292,7 +420,10 @@ export const years: Chapter[] = [
         id: "ano-1-recuerdo-2",
         eyebrow: "Planes de a dos",
         title: "Un poco\nde aventura.",
-        text: ["Algunas fotos salieron más serias que otras.", "Por suerte jejeje. Seguro que no te acordabas la del homero. Y el dia del rafting??? Estuvo increible enanita. Insististe y al final tenias razon. Como siempre jaja"],
+        text: [
+          "Algunas fotos salieron más serias que otras.",
+          "Por suerte jejeje. Seguro que no te acordabas la del homero. Y el dia del rafting??? Estuvo increible enanita. Insististe y al final tenias razon. Como siempre jaja",
+        ],
         images: ["ANO1_01", "ANO1_03"],
         layout: "pair",
       },
@@ -306,15 +437,19 @@ export const years: Chapter[] = [
         interaction: {
           prompt: "¿Te acordás?",
           button: "Revelar el recuerdo",
-          revealedText: "Mi parte favorita de estar con vos es que te duermas siempre apoyada en mí.",
+          revealedText:
+            "Mi parte favorita de estar con vos es que te duermas siempre apoyada en mí.",
         },
       },
       {
         id: "ano-1-recuerdo-4",
         eyebrow: "Lo que fuimos viviendo",
         title: "Otro año.\nLa misma elección.",
-        text: ["Seguir eligiendo estar acá.", "Con vos. Para toda la vida. Este fue el año que te regale los aritos que nunca usaste :("],
-        images: ["ANO1_05"],
+        text: [
+          "Seguir eligiendo estar acá.",
+          "Con vos. Para toda la vida. Este fue el año que te regale los aritos que nunca usaste :(",
+        ],
+        images: ["ANO1_05", "ANO1_06", "ANO1_07", "ANO1_08"],
         layout: "text-first",
         style: {
           tone: "light",
@@ -341,16 +476,23 @@ export const years: Chapter[] = [
         id: "ano-2-recuerdo-1",
         eyebrow: "También cuentan estos días",
         title: "La vida\nen casa.",
-        text: ["Con sus costumbres.", "Y sus protagonistas: El Chelo y el Raulito que ya no esta con nosotros pero va a estar siempre en nuestros corazones"],
-        images: ["ANO2_01", "ANO2_02"],
+        text: [
+          "Con sus costumbres.",
+          "Y sus protagonistas: El Chelo y el Raulito que ya no esta con nosotros pero va a estar siempre en nuestros corazones",
+        ],
+        images: ["ANO2_01", "ANO2_02", "ANO2_06", "ANO2_07"],
         layout: "detail",
       },
       {
         id: "ano-2-recuerdo-2",
         eyebrow: "Una noche más",
         title: "Salir con vos. \nSiempre tan divertido",
-        text: ["El plan importa.", "La compañía, bastante más.", "A todos lados donde te siga jamas me voy a aburrir, y esa es una de las cosas que más amo de vos."],
-        images: ["ANO2_03"],
+        text: [
+          "El plan importa.",
+          "La compañía, bastante más.",
+          "A todos lados donde te siga jamas me voy a aburrir, y esa es una de las cosas que más amo de vos.",
+        ],
+        images: ["ANO2_03", "ANO2_08"],
         layout: "hero",
         style: {
           tone: "light",
@@ -360,7 +502,9 @@ export const years: Chapter[] = [
         id: "ano-2-recuerdo-3",
         eyebrow: "Las cosas pequeñas",
         title: "Un café.\nY esta sonrisa.",
-        text: ["Viajecitos express a lugares hermosos, vos y yo, y esa carita preciosa que miro todos los días cuando me despierto y cuando me voy a dormir."],
+        text: [
+          "Viajecitos express a lugares hermosos, vos y yo, y esa carita preciosa que miro todos los días cuando me despierto y cuando me voy a dormir.",
+        ],
         images: ["ANO2_04"],
         layout: "text-first",
       },
@@ -368,7 +512,9 @@ export const years: Chapter[] = [
         id: "ano-2-recuerdo-4",
         eyebrow: "La familia siempre junta",
         title: "Tu amor y ternurita en todos lados.",
-        text: ["Me gusta mucho siempre lo amorosa y cariñosa que sos con mi familia y en especial con las peloncitas estas, me dan muchas ganas de llenarte la pancita de huesitos :)"],
+        text: [
+          "Me gusta mucho siempre lo amorosa y cariñosa que sos con mi familia y en especial con las peloncitas estas, me dan muchas ganas de llenarte la pancita de huesitos :)",
+        ],
         images: ["ANO2_05"],
         layout: "hero",
       },
@@ -405,7 +551,9 @@ export const years: Chapter[] = [
         id: "ano-3-recuerdo-1",
         eyebrow: "Esta risa",
         title: "Me encanta\nverte así.",
-        text: ["No podía faltar esta foto. Tetas nuevas, feliz en la playa, y esa sonrisa hermosa diossss como te amo"],
+        text: [
+          "No podía faltar esta foto. Tetas nuevas, feliz en la playa, y esa sonrisa hermosa diossss como te amo",
+        ],
         images: ["ANO3_01"],
         layout: "hero",
       },
@@ -413,7 +561,9 @@ export const years: Chapter[] = [
         id: "ano-3-recuerdo-2",
         eyebrow: "Sin ir muy lejos",
         title: "Nuestro lugar.\nDonde estés vos.",
-        text: ["A veces, el mejor plan es simplemente este. Los gorditos y nosotros 2"],
+        text: [
+          "A veces, el mejor plan es simplemente este. Los gorditos y nosotros 2",
+        ],
         images: ["ANO3_02"],
         layout: "text-first",
         style: {
@@ -425,7 +575,9 @@ export const years: Chapter[] = [
         id: "ano-3-recuerdo-3",
         eyebrow: "Un recuerdo mas, guardado",
         title: "Otro atardecer.\nCon vos.",
-        text: ["Una vista nueva, un día muy especial, y un recuerdo más para nosotros."],
+        text: [
+          "Una vista nueva, un día muy especial, y un recuerdo más para nosotros.",
+        ],
         images: ["ANO3_03"],
         layout: "hero",
       },
@@ -433,16 +585,20 @@ export const years: Chapter[] = [
         id: "ano-3-recuerdo-4",
         eyebrow: "Nuestra costumbre",
         title: "Nosotros,\nen cualquier espejo.",
-        text: ["De día, de noche, papeados, de cara, en rosario o en new york, siempre juntos, siempre con vos."],
-        images: ["ANO3_04", "ANO3_05"],
+        text: [
+          "De día, de noche, papeados, de cara, en rosario o en new york, siempre juntos, siempre con vos.",
+        ],
+        images: ["ANO3_04", "ANO3_05", "ANO3_08", "ANO3_09"],
         layout: "pair",
       },
       {
         id: "ano-3-recuerdo-5",
         eyebrow: "Y un poco de magia",
         title: "Un viaje más.\nOtra historia nuestra.",
-        text: ["Otro viaje juntos y van, porque si hay algo que quiero en esta vida es viajar con vos y llevarte de la mano a todos lados mi vida hermosa."],
-        images: ["ANO3_06"],
+        text: [
+          "Otro viaje juntos y van, porque si hay algo que quiero en esta vida es viajar con vos y llevarte de la mano a todos lados mi vida hermosa.",
+        ],
+        images: ["ANO3_06", "ANO3_10", "ANO3_11", "ANO3_12"],
         layout: "text-first",
         style: {
           alignment: "center",
@@ -462,7 +618,10 @@ export const story = {
   },
   opening: {
     eyebrow: "Nuestra historia, hasta acá",
-    messages: ["Hace cuatro años empezamos esta aventura.", "Y pasaron un monton de cosas enanita hermosa."],
+    messages: [
+      "Hace cuatro años empezamos esta aventura.",
+      "Y pasaron un monton de cosas enanita hermosa.",
+    ],
     messageDuration: 7600,
     title: "Cuatro años juntos.",
     titleAccent: "Tres de casados.",
@@ -510,7 +669,8 @@ export const story = {
     loading: "Cargando",
     unlocked: "Desbloqueado",
     unlockDuration: 1800,
-    subtitle: "Nuestro cuarto año de casados recién arranca y tenemos muchísimo para vivir.",
+    subtitle:
+      "Nuestro cuarto año de casados recién arranca y tenemos muchísimo para vivir.",
     continuation: "Continuará.",
     image: "ANO3_07",
     farewell: "Feliz aniversario.",
@@ -546,7 +706,7 @@ export const story = {
             "Todavía no estábamos casados.",
             "Pero ya había mucho de esto que somos hoy y que tanto nos define, siempre juntos con esa ternura y complicidad que nos caracteriza.",
           ],
-          images: ["PRE_01", "PRE_02", "PRE_06"],
+          images: ["PRE_01", "PRE_02", "PRE_03", "PRE_04", "PRE_06", "PRE_07"],
           layout: "collage",
         },
       ],
@@ -560,7 +720,9 @@ export const story = {
           id: "boda",
           eyebrow: "El día de nuestra boda",
           title: "Sí.\nCon vos. \nSiempre, para siempre",
-          text: ["Aca empezó el mejor capítulo de nuestra historia. Y todavía sigue."],
+          text: [
+            "Aca empezó el mejor capítulo de nuestra historia. Y todavía sigue.",
+          ],
           images: ["BODA_04"],
           layout: "hero",
         },
