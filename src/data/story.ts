@@ -410,7 +410,7 @@ export const years: Chapter[] = [
         eyebrow: "Los primeros viajes",
         title: "La vista era linda.\nLa compañía, más.",
         text: [
-          "Como siempre a todos lados donde fuimos y donde vamos, la vista y los lugares son increibles pero lo que más me gusta es la compañia.",
+          "Como siempre a todos lados donde fuimos y donde vamos, la vista y los lugares son increibles pero lo que más me gusta es tu compañia mi amorcito.",
         ],
         images: ["ANO1_02"],
         layout: "hero",
@@ -447,7 +447,7 @@ export const years: Chapter[] = [
         title: "Otro año.\nLa misma elección.",
         text: [
           "Seguir eligiendo estar acá.",
-          "Con vos. Para toda la vida. Este fue el año que te regale los aritos que nunca usaste :(",
+          "Con vos. Para toda la vida. Siempre con esa carita preciosa del otro lado",
         ],
         images: ["ANO1_05", "ANO1_06", "ANO1_07", "ANO1_08"],
         layout: "text-first",
@@ -477,8 +477,7 @@ export const years: Chapter[] = [
         eyebrow: "También cuentan estos días",
         title: "La vida\nen casa.",
         text: [
-          "Con sus costumbres.",
-          "Y sus protagonistas: El Chelo y el Raulito que ya no esta con nosotros pero va a estar siempre en nuestros corazones",
+          "Con sus costumbres. Nuestros desayunitos, y sus protagonistas: El Chelo y el Raulito que ya no esta con nosotros pero va a estar siempre en nuestros corazones",
         ],
         images: ["ANO2_01", "ANO2_02", "ANO2_06", "ANO2_07"],
         layout: "detail",
@@ -574,9 +573,9 @@ export const years: Chapter[] = [
       {
         id: "ano-3-recuerdo-3",
         eyebrow: "Un recuerdo mas, guardado",
-        title: "Otro atardecer.\nCon vos.",
+        title: "Otro atardecer.\nCon vos. \nDe la manito.",
         text: [
-          "Una vista nueva, un día muy especial, y un recuerdo más para nosotros.",
+          "Una vista nueva, un día muy especial para amigos cercanos, y un recuerdo más para nosotros. Siempre juntos ",
         ],
         images: ["ANO3_03"],
         layout: "hero",
@@ -588,7 +587,7 @@ export const years: Chapter[] = [
         text: [
           "De día, de noche, papeados, de cara, en rosario o en new york, siempre juntos, siempre con vos.",
         ],
-        images: ["ANO3_04", "ANO3_05", "ANO3_08", "ANO3_09"],
+        images: ["ANO3_04", "ANO3_05"],
         layout: "pair",
       },
       {
@@ -622,7 +621,7 @@ export const story = {
       "Hace cuatro años empezamos esta aventura.",
       "Y pasaron un monton de cosas enanita hermosa.",
     ],
-    messageDuration: 7600,
+    messageDuration: 3800,
     title: "Cuatro años juntos.",
     titleAccent: "Tres de casados.",
     description: "Un poco de lo que vivimos.\nY todo lo que todavía nos queda.",
@@ -663,7 +662,7 @@ export const story = {
       "Cuatro de nosotros.",
       "Y todavía sigue.",
     ],
-    messageDuration: 1500,
+    messageDuration: 3000,
     eyebrow: "El próximo capítulo de casados",
     title: "Año cuatro.",
     loading: "Cargando",

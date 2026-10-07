@@ -1,6 +1,6 @@
 # Fotos de la historia
 
-Selección de 38 fotos distintas: 37 en el recorrido y una en la sorpresa. El selfie nuevo reemplaza la foto anterior en «Momentos que quedan». Los originales quedan en su carpeta de origen. Las otras cuatro fotos están reservadas.
+Selección de 36 fotos distintas: 35 en el recorrido y una en la sorpresa. El selfie nuevo reemplaza la foto anterior en «Momentos que quedan». Los originales quedan en su carpeta de origen. Las otras seis fotos están reservadas.
 
 ## Organización de la web
 
@@ -56,13 +56,13 @@ El original nuevo está en `E:/Fer Chrome Downloads/IMG_20251012_175306777.jpg`.
 | `ANO2_06` | 02- segundo año/nuevas         | `IMG_20250212_090558939_HDR.jpg`         | La vida en casa                      |
 | `ANO2_07` | 02- segundo año/nuevas         | `IMG_20250717_085154626.jpg`             | La vida en casa                      |
 | `ANO2_08` | 02- segundo año/nuevas         | `salir.jpg`                              | Salir con vos                        |
-| `ANO3_08` | 03- tercer año/nuevas/04 de 05 | `IMG_20260124_173640008_MF_PORTRAIT.jpg` | Nosotros, en cualquier espejo        |
-| `ANO3_09` | 03- tercer año/nuevas/04 de 05 | `IMG_20260402_095418292_HDR.jpg`         | Nosotros, en cualquier espejo        |
+| `ANO3_08` | 03- tercer año/nuevas/04 de 05 | `IMG_20260124_173640008_MF_PORTRAIT.jpg` | Reservada                            |
+| `ANO3_09` | 03- tercer año/nuevas/04 de 05 | `IMG_20260402_095418292_HDR.jpg`         | Reservada                            |
 | `ANO3_10` | 03- tercer año/nuevas/05 de 05 | `IMG_20260916_093632503_HDR.jpg`         | Un viaje más. Otra historia nuestra. |
 | `ANO3_11` | 03- tercer año/nuevas/05 de 05 | `IMG_20260916_124641830_HDR.jpg`         | Un viaje más. Otra historia nuestra. |
 | `ANO3_12` | 03- tercer año/nuevas/05 de 05 | `IMG_20260917_174001629_HDR.jpg`         | Un viaje más. Otra historia nuestra. |
 
-En móvil: Antes del sí tiene 6 fotos; Otro año, La vida en casa y los recuerdos 04 y 05 del tercer año tienen 4 cada uno; Salir con vos tiene 2. Todas las galerías permiten deslizar con el dedo y tocar los indicadores.
+En móvil: Antes del sí tiene 6 fotos; Otro año, La vida en casa y el recuerdo 05 del tercer año tienen 4 cada uno; Salir con vos y el recuerdo 04 del tercer año tienen 2 cada uno. Todas las galerías permiten deslizar con el dedo y tocar los indicadores.
 
 ## Selección reservada
 
@@ -72,3 +72,5 @@ Estas fotos siguen disponibles para cambiar o ampliar la historia:
 - 00 - antes del si: `IMG_20230520_160702698_BURST000_COVER_TOP.jpg`
 - boda: `IMG_20231008_003601665.jpg`
 - 02- segundo año: `IMG_20250426_150038316_HDR.jpg` (reemplazada en la web).
+- 03- tercer año/nuevas/04 de 05: `IMG_20260124_173640008_MF_PORTRAIT.jpg` (`ANO3_08`, retirada del recuerdo 04).
+- 03- tercer año/nuevas/04 de 05: `IMG_20260402_095418292_HDR.jpg` (`ANO3_09`, retirada del recuerdo 04).

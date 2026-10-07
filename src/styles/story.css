@@ -819,8 +819,8 @@ h1 em {
   visibility: hidden;
   transform: translateY(20px);
   transition:
-    opacity 1.2s,
-    transform 1.2s;
+    opacity 2.4s,
+    transform 2.4s;
 }
 .next-year.is-ready {
   opacity: 1;
@@ -1579,7 +1579,7 @@ h1 em {
 }
 .opening-message.fade-in,
 .ending-message.fade-in {
-  animation: phrase var(--phrase-duration, 1900ms) ease both;
+  animation: phrase var(--phrase-duration, 800ms) ease both;
 }
 .is-hidden-memory .photo-wrap {
   filter: none;
