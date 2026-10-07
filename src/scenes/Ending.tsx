@@ -9,28 +9,29 @@ export function Ending() {
   const [started, setStarted] = useState(false);
   const [phase, setPhase] = useState(0);
   const [unlocked, setUnlocked] = useState(false);
-  const ref = useRef<HTMLElement>(null);
+  const firstMessage = useRef<HTMLParagraphElement>(null);
   const reduced = useReducedMotion();
   useEffect(() => {
+    if (reduced) return;
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
+        if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
           setStarted(true);
           observer.disconnect();
         }
       },
-      { threshold: 0.15 },
+      { threshold: 0.5 },
     );
-    if (ref.current) observer.observe(ref.current);
+    if (firstMessage.current) observer.observe(firstMessage.current);
     return () => observer.disconnect();
-  }, []);
+  }, [reduced]);
   useEffect(() => {
-    if (!started) return;
     if (reduced) {
       setPhase(ending.messages.length);
       setUnlocked(true);
       return;
     }
+    if (!started) return;
     if (phase < ending.messages.length) {
       const timer = window.setTimeout(
         () => setPhase((value) => value + 1),
@@ -47,7 +48,6 @@ export function Ending() {
   return (
     <>
       <section
-        ref={ref}
         id="lo-que-sigue"
         className={`ending-intro scene ${reduced ? "ending-reduced" : ""}`}
         data-progress="final"
@@ -67,7 +67,11 @@ export function Ending() {
             </div>
           )}
           {!reduced && phase < ending.messages.length && (
-            <p key={phase} className="ending-message fade-in">
+            <p
+              key={phase}
+              ref={phase === 0 ? firstMessage : undefined}
+              className={`ending-message ${phase > 0 ? "fade-in" : ""}`}
+            >
               {ending.messages[phase]}
             </p>
           )}

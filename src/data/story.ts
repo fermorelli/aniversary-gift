@@ -659,7 +659,7 @@ export const story = {
   ending: {
     messages: [
       "Tres años de casados.",
-      "Cuatro de nosotros.",
+      "Cuatro (y medio) de nosotros.",
       "Y todavía sigue.",
     ],
     messageDuration: 3000,
